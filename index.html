@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcluator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+        <div class="c">
+            <!-- over all design -->
+            <!-- <form action=""> -->
+            <p>CASIO</p>
+            <!-- screen -->
+        <input id="result"form-control readonly placeholder="0"><br><br>
+
+        <button class="button" onclick="displaycontent('7')">7</button>
+        <button class="button" onclick="displaycontent('8')">8</button>
+        <button class="button" onclick="displaycontent('9')">9</button>
+        <button class="button" onclick="displaycontent('/')" style="background-color: grey;">/</button>
+        <br>
+        <button class="button" onclick="displaycontent('4')">4</button>
+        <button class="button" onclick="displaycontent('5')">5</button>
+        <button class="button" onclick="displaycontent('6')">6</button>
+        <button class="button" onclick="displaycontent('*')" style="background-color: grey;">*</button>
+        <br>
+        <button class="button" onclick="displaycontent('1')">1</button>
+        <button class="button" onclick="displaycontent('2')">2</button>
+        <button class="button" onclick="displaycontent('3')">3</button>
+        <button class="button" onclick="displaycontent('-')" style="background-color: gray;">-</button>
+        <br>
+        <button class="button" onclick="clearscreen()" style="background-color: red;">AC</button>
+        <button class="button" onclick="displaycontent('0')">0</button>
+        <button class="button" onclick="finaloutput()" style="background-color: rgba(255, 255, 0, 0.829);">=</button>
+        <button class="button" onclick="displaycontent('+')" style="background-color: grey;">+</button>
+        <br>
+        <button class="button" onclick="removeitem()" style="color:red;">x</button>
+        
+        
+    <!-- </form> -->
+</div>
+</body>
+<script src="./cal.js"></script>
+</html>
